@@ -1,0 +1,227 @@
+
+/*dispositivo móvel*/
+@media (max-width: 767px) {
+
+.logo1{
+    left: 29%;
+    width: 50%;
+    height: 150px;
+    position: absolute;
+    top: 2%;
+}
+
+    .pesquisar{
+        position: absolute;
+        top: 2%;
+        width: 70%;
+        height: 3%;
+        right: 10%;
+    }
+    
+.imgblack{
+  position: absolute;
+  height: 150px;
+  width: 100%;
+  left: 0%;
+  top: 0%;
+}
+    
+    
+    .textprodutos1{
+        position:absolute;
+        text-align: center;
+        top: 25%;
+        color: #000000;
+        width: 210px;
+        height: 60px;
+        left: 20%;
+    }
+    
+    .textprodutos2{
+        position:absolute;
+        text-align: center;
+        top: 59%;
+        color: rgb(0, 0, 0);
+        width: 50%;
+        height: 170px;
+        left: 20%;
+    }
+    
+    .icon1{
+        position: absolute;
+        width: 10%;
+        top: 16%;
+    }
+    
+    .icon2{
+        position: absolute;
+        width: 10%;
+        top: 17%;
+        right: 2%;
+    }
+    
+    .telamarrom{
+        position: absolute;
+        top: 650px;
+      height: 225%;
+        z-index: 1; 
+        left: 0%;
+    }
+    
+    .gato1{
+        position: absolute;
+        width:80%;
+        top: 120%;
+        z-index: 2;
+        left: 10%;
+        box-shadow: 0px 0px 15px black;
+    }
+    
+    .gato2{
+        position: absolute;
+        width: 80%;
+        top: 184%;
+        z-index: 2;
+        left: 10%;
+        box-shadow: 0px 0px 15px black;
+    }
+    
+    
+    .gato3{
+        position: absolute;
+        width: 80%;
+        top: 250%;
+        z-index: 2;
+        left: 10%;
+        box-shadow: 0px 0px 15px black;
+    }
+    
+    .selo{
+        position: absolute;
+        width: 80%;
+        top: 310%;
+        z-index: 2;
+        left: 10%;
+        border-radius: 8px;
+        border-color: black;
+        box-shadow: 15px 15px 15px black;
+    }
+    
+
+}
+
+
+
+
+/* pra pc*/
+
+@media (min-width: 768px) {
+    .logo1{
+        left: 40%;
+        width: 20%;
+        height: 40%;
+        position: absolute;
+        top: 0px;
+
+
+
+    }
+
+    .imgblack{
+        position: absolute;
+        width: 100%;
+        height: 40%;
+        left: 0%;
+        top: 0%;
+        
+        
+    }
+        
+
+    .pesquisar{
+        position: absolute;
+        right: 10%;
+        border: 3px solid #ccc;
+        border-radius: 4px 0 0 4px;
+    }
+    
+    .textprodutos1{
+        position:absolute;
+        text-align: center;
+        top: 45%;
+        color: rgb(0, 0, 0);
+        width: 50%;
+        left: 20%;
+    }
+    
+    .textprodutos2{
+        position:absolute;
+        text-align: center;
+        top: 75%;
+        color: rgb(0, 0, 0);
+        width: 50%;
+        height: 170px;
+        left: 20%;
+    }
+    
+    .icon1{
+        position: absolute;
+        width: 5%;
+        top: 27%;
+    }
+    
+    .icon2{
+        position: absolute;
+        width: 5%;
+        right: 1%;
+        top:28% ;
+    }
+    
+    .telamarrom{
+        position: absolute;
+        top: 800px;
+        width: 500%;
+        height: 100%;
+        left: 0px;   
+    }
+
+    .gato1{
+        position: absolute;
+        width:20%;
+        top: 120%;
+        z-index: 2;
+        left: 10%;
+        box-shadow: 0px 0px 15px black;
+    }
+    
+    .gato2{
+        position: absolute;
+        width: 20%;
+        top: 121%;
+        z-index: 2;
+        left: 40%;
+        box-shadow: 0px 0px 15px black;
+    }
+    
+    
+    .gato3{
+        position: absolute;
+        width: 20%;
+        top: 122%;
+        z-index: 2;
+        left: 70%;
+        box-shadow: 0px 0px 15px black;
+    }
+    
+
+    .selo{
+        position: absolute;
+        width: 20%;
+        top: 200%;
+        z-index: 2;
+        left: 40%;
+        border-radius: 8px;
+        border-color: black;
+        box-shadow: 15px 15px 15px black;
+    }
+}
