@@ -66,14 +66,14 @@
         right: 15%;
     }
 
-    .telamarrom{
+   .telamarrom{
         position: absolute;
         top: 730px;
-      height: 225%;
+        height: 225%;
         z-index: 1; 
         left: 0%;
+        right: 0%;
     }
-    
     .gato1{
         position: absolute;
         width:80%;
