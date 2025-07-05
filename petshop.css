@@ -1,3 +1,4 @@
+
 /*dispositivo móvel*/
 @media (max-width: 767px) {
 
@@ -66,7 +67,7 @@
         right: 15%;
     }
 
-   .telamarrom{
+    .telamarrom{
         position: absolute;
         top: 730px;
         height: 225%;
@@ -74,6 +75,7 @@
         left: 0%;
         right: 0%;
     }
+    
     .gato1{
         position: absolute;
         width:80%;
@@ -116,7 +118,60 @@
 
 }
 
-
+.botao1{
+    position:absolute;
+    right:40%;
+    top: 50%;
+    height: 4% ;
+    width: 20%;
+    background-color: white;
+    font-style:oblique;
+    border-radius: 15px;
+    box-shadow: 5px 5px 25px black;
+}
+.botao2{
+    position:absolute;
+    top: 60%;
+     height: 4% ;
+    width: 20%;
+    right: 40%;
+    background-color:white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 25px black;
+}
+.botao3{
+    position:absolute;
+    top: 70%;
+     height: 4% ;
+    width: 20%;
+    right: 40%;
+    background-color: white;
+    font-style:oblique;
+    border-radius: 15px;
+    box-shadow: 5px 5px 25px black;
+}
+.botao4{
+    position:absolute;
+    top: 80%;
+     height: 4% ;
+    width: 20%;
+    right: 40%;
+    background-color:white;
+    font-style:oblique;
+    border-radius: 15px;
+    box-shadow: 5px 5px 25px black;
+}
+.botao5{
+    position:absolute;
+    top: 90%;
+     height: 4% ;
+    width: 20%;
+    right: 40%;
+    background-color:white;
+    font-style:oblique;
+    border-radius: 15px;
+    box-shadow: 5px 5px 25px black;
+}
 
 
 /* pra pc*/
@@ -138,11 +193,11 @@
         top: 35%;
         position: absolute;
         right: 42%;
-         border: 3px solid #656161;
-        border-radius: 15px 15px 15px 15px;
+         border: none;
+        border-radius: 20px;
         background-color: #c6c6c6;
         color: #000000;
-        padding: 5px 10px;
+        padding: 10px 15px;
         outline: none;
         font-size: 16px;
     }
@@ -221,6 +276,11 @@
         left: 70%;
         box-shadow: 0px 0px 15px black;
     }
+
+    .meuBotao{
+        background-color: aqua;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
     
 
     .selo{
@@ -236,15 +296,15 @@
 }
 
 .botao1{
-    position:absolute;
+      position:absolute;
     right:40%;
     top: 50%;
-    height: 4% ;
+     height: 4% ;
     width: 20%;
-    background-color: rgb(184, 157, 104);
-    font-style:oblique;
-    border-radius: 15px;
-    box-shadow: 5px 5px 25px black;
+    right: 40%;
+    border: none;
+    background-color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;r: none;
 }
 .botao2{
     position:absolute;
@@ -252,7 +312,10 @@
      height: 4% ;
     width: 20%;
     right: 40%;
-    background-color:rgb(184, 157, 104);
+    background-color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;r: none;
+
+    border: none;
     border-radius: 15px;
     box-shadow: 5px 5px 25px black;
 }
@@ -262,8 +325,9 @@
      height: 4% ;
     width: 20%;
     right: 40%;
-    background-color: rgb(184, 157, 104);
-    font-style:oblique;
+    background-color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;r: none;
+    border: none;
     border-radius: 15px;
     box-shadow: 5px 5px 25px black;
 }
@@ -273,8 +337,9 @@
      height: 4% ;
     width: 20%;
     right: 40%;
-    background-color:rgb(184, 157, 104);
-    font-style:oblique;
+    background-color:white;
+    border: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;r: none;
     border-radius: 15px;
     box-shadow: 5px 5px 25px black;
 }
@@ -284,10 +349,9 @@
      height: 4% ;
     width: 20%;
     right: 40%;
-    background-color:rgb(184, 157, 104);
-    font-style:oblique;
+    background-color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;r: none;
+    border: none;
     border-radius: 15px;
     box-shadow: 5px 5px 25px black;
 }
-
-   
