@@ -178,11 +178,12 @@
 
 @media (min-width: 768px) {
     .logo1{
-        left: 40%;
+        left: 10%;
         width: 20%;
         height: 40%;
         position: absolute;
-        top: 0px;
+        top: -7%
+        
 
 
 
@@ -190,16 +191,36 @@
         
 
     .pesquisar{
-        top: 35%;
+        top: 10%;
+        width: 20%;
         position: absolute;
-        right: 42%;
-         border: none;
+        right: 41%;
+        border: none;
         border-radius: 20px;
         background-color: #c6c6c6;
         color: #000000;
         padding: 10px 15px;
         outline: none;
         font-size: 16px;
+    }
+
+    .caixapesquisa{
+        display: flex;
+        align-items: center;
+        width: 90%;
+        border-radius: 20px;
+        border: none;
+        height: 20px;
+    }
+
+    .botaopesquisa{
+        position:absolute;
+        left: 89%;
+        top: 9%;
+        border-radius: 20px;
+        border: none;
+        height: 34px;
+        width: 34px;
     }
     
     .textprodutos1{
@@ -225,19 +246,19 @@
         position: absolute;
         width: 2%;
         top: 9%;
-        right: 1%;
+        right: 11%;
     }
     
     .whats{
         position: absolute;
         width: 2%;
-        right: 5%;
+        right: 16%;
         top:9% ;
     }
      .face{
         position: absolute;
         width: 2%;
-        right: 9%;
+        right: 20%;
         top:9% ;
     }
     
@@ -247,6 +268,14 @@
         width: 500%;
         height: 100%;
         left: 0px;   
+    }
+
+    .margemazul{
+        position: absolute;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        height: 30%;
     }
 
     .gato1{
