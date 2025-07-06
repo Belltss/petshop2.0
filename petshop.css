@@ -10,20 +10,59 @@
     top: 2%;
 }
 
+
+    #botaocarrinho{
+        top: 3%;
+        transform: scale(1.1);
+        transition: 0.2s;
+        position: fixed;
+        height: auto;
+        width: 7%;
+
+    }
+
+    .margemazul{
+        position: absolute;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        height: 30%;
+    }
+
     .pesquisar{
         position: absolute;
-        top: 21%;
+        top: 24%;
         width: 70%;
         height: 3%;
         right: 10%;
-         border: 3px solid #656161;
-        border-radius: 15px 15px 15px 15px;
-        background-color: #c6c6c6;
+        border: none;
+        border-radius: 20px;
+        background-color: #3897b7;
         color: #000000;
         padding: 5px 10px;
         outline: none;
         font-size: 16px;
     }
+
+        .botaopesquisa{
+        position:absolute;
+        left: 89%;
+        top: 9%;
+        border-radius: 20px;
+        border: none;
+        height: 25px;
+        width: 28px;
+    }
+
+        .caixapesquisa{
+        display: flex;
+        align-items: center;
+        width: 90%;
+        border-radius: 20px;
+        border: none;
+        height: 19px;
+    }
+
     
     
     .textprodutos1{
@@ -49,31 +88,31 @@
     .insta{
         position: absolute;
         width: 10%;
-        top: 30%;
-        right: 60%;
+        top: 33%;
+        right: 65%;
     }
     
     .whats{
         position: absolute;
         width: 10%;
-        top: 30%;
-        right: 38%;
+        top: 33%;
+        right: 44%;
     }
 
      .face{
       position: absolute;
         width: 10%;
-        top: 30%;
-        right: 15%;
+        top: 33%;
+        right: 23%;
     }
 
     .telamarrom{
         position: absolute;
         top: 730px;
-        height: 225%;
+        height: 220%;
         z-index: 1; 
         left: 0%;
-        right: 0%;
+        width: 100%;
     }
     
     .gato1{
@@ -107,7 +146,7 @@
     .selo{
         position: absolute;
         width: 80%;
-        top: 310%;
+        top: 300%;
         z-index: 2;
         left: 10%;
         border-radius: 8px;
@@ -121,7 +160,7 @@
 .botao1{
     position:absolute;
     right:40%;
-    top: 50%;
+    top: 48%;
     height: 4% ;
     width: 20%;
     background-color: white;
@@ -131,7 +170,7 @@
 }
 .botao2{
     position:absolute;
-    top: 60%;
+    top: 58%;
      height: 4% ;
     width: 20%;
     right: 40%;
@@ -141,7 +180,7 @@
 }
 .botao3{
     position:absolute;
-    top: 70%;
+    top: 68%;
      height: 4% ;
     width: 20%;
     right: 40%;
@@ -152,7 +191,7 @@
 }
 .botao4{
     position:absolute;
-    top: 80%;
+    top: 78%;
      height: 4% ;
     width: 20%;
     right: 40%;
@@ -163,7 +202,7 @@
 }
 .botao5{
     position:absolute;
-    top: 90%;
+    top: 78%;
      height: 4% ;
     width: 20%;
     right: 40%;
@@ -173,23 +212,27 @@
     box-shadow: 5px 5px 25px black;
 }
 
-
 /* pra pc*/
 
 @media (min-width: 768px) {
     .logo1{
         left: 10%;
-        width: 20%;
-        height: 40%;
+        width: 15%;
+        height: auto;
         position: absolute;
-        top: -7%
+        top: -2%;
         
+    }
 
-
+    #botaocarrinho{
+        top: 3%;
+        transform: scale(1.1);
+        transition: 0.2s;
+        position: fixed;
+        height: auto;
+        width: 3%;
 
     }
-        
-
     .pesquisar{
         top: 10%;
         width: 20%;
@@ -197,7 +240,7 @@
         right: 41%;
         border: none;
         border-radius: 20px;
-        background-color: #c6c6c6;
+        background-color: #3897b7;
         color: #000000;
         padding: 10px 15px;
         outline: none;
@@ -221,6 +264,7 @@
         border: none;
         height: 34px;
         width: 34px;
+        background-color: rgb(127, 215, 215);
     }
     
     .textprodutos1{
@@ -259,9 +303,9 @@
         position: absolute;
         width: 2%;
         right: 20%;
-        top:9% ;
+        top:9%;
     }
-    
+
     .telamarrom{
         position: absolute;
         top: 800px;
@@ -383,4 +427,28 @@
     border: none;
     border-radius: 15px;
     box-shadow: 5px 5px 25px black;
+}
+
+@media (prefere-color-scheme: dark) {
+    body {
+        background-color: 121212;
+        color: white;
+    }
+
+    button {
+        background-color: #1f1f1f;
+        color: white;
+        border: 1px solid #444
+    }
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+button {
+    background-color: #f0f0f0;
+    color: black;
+    border: 1px solid #ccc;
 }
