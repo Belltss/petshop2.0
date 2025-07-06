@@ -4,74 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petshop</title>
-
     <link rel="stylesheet" href="petshop.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap">
 </head>
 <body>
 
-    <link rel="fontes" href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap">
-    <div> 
-        
+    <!-- Carrinho no topo -->
+    <a href="carrinho.html">
+        <img src="carrinho-de-compras.png" alt="Carrinho de compras" style="width: 40px; cursor: pointer;">
+    </a>
+
+    <!-- Imagens da interface -->
+    <div>
         <img class="imgbranca" src="telabranca.jpeg" alt="">
         <img class="margemazul" src="margemazul.png" alt="">
-
-        <img class="logo1" src="logo.png" alt="">
-
-        <img class="insta" src="instagram.png" alt="">
-        <img class="whats" src="whatsapp.png" alt="">
-        <img class="face"  src="facebook.png" alt="">
-
-        <img class="gato1"  src="gato1.jpg" alt="">
-        <img class="gato2"   src="gato2.jpg" alt="">
+        <img class="logo1" src="logopetshop.png" alt="">
+       
+        
+       
+        <img class="gato1" src="gato1.jpg" alt="">
+        <img class="gato2" src="gato2.jpg" alt="">
         <img class="gato3" src="gato3.jpg" alt="">
-
-
-        <img class="telamarrom" src="telamarrom.jpg"  alt="">
+        <img class="telamarrom" src="telamarrom.jpg" alt="">
+        <img src="carrinho-de-compras.png" id="botaocarrinho" alt="">
         <img class="selo" src="selo.png" alt="">
+    </div>
 
-    
+    <!--Botôes de redes sociais-->
+    <div class="redesocial">
+      <img class="insta" src="instagram.png" alt="">
+      <img class="whats" src="whatsapp.png" alt="">
+      <img class="face" src="facebook.png" alt="">
     </div>
 
 
 
-<div>
+    <!-- Botões de categorias -->
+    <div class="botoes">
+        <button class="botao1">Roupas</button>
+        <button class="botao2">Banho</button>
+        <button class="botao3">Coleiras</button>
+        <button class="botao4">Casinhas</button>
+        <button class="botao5">Brinquedos</button>
+    </div>
 
-    </button  class="botoes">
-     <button class="botao1" >Roupas</button>
-     <button class="botao2" >Banho</button>
-     <button class="botao3" >Coleiras</button>
-     <button class="botao4" >Casinhas</button>
-     <button class="botao5" >Brinquedos</button>
-
-</div>
-
-
-
-
+    <!-- Barra de pesquisa -->
     <div class="pesquisar">
-        <input class="caixapesquisa" type="text" placeholder="  Buscar itens..">
+        <input class="caixapesquisa" type="text" placeholder="  Buscar brinquedos, rações..">
         <button class="botaopesquisa"><i class="fas fa-search"></i></button>
     </div>
 
+    <!-- Scripts -->
+    <script>
+        const botoes = document.querySelectorAll('[class^="botao"]'); //script de BOTOES DE CATEGORIA
+        botoes.forEach(botao => {
+            botao.addEventListener('mouseover', () => {
+                botao.style.transform = 'scale(1.05)';
+                botao.style.transition = 'transform 0.2s ease';
+            });
+            botao.addEventListener('mouseout', () => {
+                botao.style.transform = 'scale(1)';
+            });
+        });
 
-</head>
-<body>
-  
-<script>
-  const botoes = document.querySelectorAll('[class^="botao"]');
+        document.getElementById("botaocarrinho").addEventListener("click", function () { // script do CARRINHO DE COMPRAS
+            alert("Abrindo seu carrinho de compras...");
+            window.location.href = "carrinho.html"
+        });
 
-  botoes.forEach(botao => {
-    botao.addEventListener('mouseover', () => {
-      botao.style.transform = 'scale(1.05)';
-      botao.style.transition = 'transform 0.2s ease';
-    });
+          const redes = document.querySelectorAll('.insta, .whats, .face'); // script das REDES SOCIAIS
+     redes.forEach(item => {
+      item.addEventListener('mouseover', () => {
+      item.style.transform = 'scale(1.2)';
+      item.style.transition = 'transform 0.2s ease';
+       });
+      item.addEventListener('mouseout', () => {
+      item.style.transform = 'scale(1)';
+      });
+       });
+    </script>
 
-    botao.addEventListener('mouseout', () => {
-      botao.style.transform = 'scale(1)';
-    });
-  });
-</script>
+
 </body>
 </html>
