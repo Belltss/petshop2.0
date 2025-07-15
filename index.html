@@ -9,6 +9,21 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap">
 </head>
 <body>
+      <!-- Carrosel -->
+    <div class="carrossel">
+  <div class="slides">
+    <img src="cabra.jpg" alt="Imagem 1">
+    <img src="cavalo.jpg" alt="Imagem 2">
+    <img src="romeu3.jpg" alt="Imagem 3">
+  </div>
+</div>
+
+  <p class="titulocarrosel">Nos mande foto do seu momento pet! Acesse nosso Whatsapp! <img class="zapcarrosel" src="whatsapp.png" alt=""></p>
+
+  <p class="redesocialtxt">Nossas redes sociais:</p>
+    
+
+<script src="script.js"></script>
 
     <!-- Carrinho no topo -->
     <a href="carrinho.html">
@@ -26,7 +41,7 @@
         <img class="gato1" src="gato1.jpg" alt="">
         <img class="gato2" src="gato2.jpg" alt="">
         <img class="gato3" src="gato3.jpg" alt="">
-        <img class="telamarrom" src="telamarrom.jpg" alt="">
+        <img class="azulescuro" src="azulescuro.png" alt="">
         <img src="carrinho-de-compras.png" id="botaocarrinho" alt="">
         <img class="selo" src="selo.png" alt="">
     </div>
@@ -83,6 +98,17 @@
       item.style.transform = 'scale(1)';
       });
        });
+
+       let currentIndex = 0; // carrosel
+const slides = document.querySelector('.slides');
+const totalSlides = 3;
+
+function showNextSlide() {
+  currentIndex = (currentIndex + 1) % totalSlides;
+  slides.style.transform = `translateX(-${currentIndex * 600}px)`;
+}
+
+setInterval(showNextSlide, 3000);
     </script>
 
 
